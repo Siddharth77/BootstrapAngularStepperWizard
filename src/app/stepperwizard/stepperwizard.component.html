@@ -1,0 +1,47 @@
+  <div class="container">
+    <ul class="progressbar">
+      <li class="active"><a href="#step1"> Step 1 <br/><small>Name</small></a></li>
+      <li ><a href="#step2"> Step 2 <br/><small>Email</small></a></li>
+      <li ><a href="#step3"> Step 3 <br/><small>Phone</small></a></li>
+    </ul>
+    <form>
+      <div>
+          <div id='step1'>
+            <h2>Your Name</h2>
+            <div class="form-step-0" role="form" data-toggle="validator">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your Name">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <button type="button">Next</button>
+          <div id='step2'>
+              <h2>Your Email</h2>
+              <div class="form-step-0" role="form" data-toggle="validator">
+                <div class="form-group">
+                  <label for="name">Email</label>
+                  <input type="text" class="form-control" id="email" name="email" required placeholder="Enter your Email">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+          </div>
+          <button type="button" class="btn-prev">Previous</button>
+          <button type="button" class="btn-next">Next</button>
+          <div id='step3'>
+              <h2>Your Phone</h2>
+              <div class="form-step-0" role="form" data-toggle="validator">
+                <div class="form-group">
+                  <label for="name">Phone</label>
+                  <input type="text" class="form-control" id="phone" name="phone" required placeholder="Enter your Phone">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+          </div>
+          <input type="submit" value="Submit">
+      </div>
+    </form>
+</div>
+
+
